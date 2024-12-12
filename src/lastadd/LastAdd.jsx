@@ -9,7 +9,10 @@ import "./LastAdd.css";
 import { Navigation } from "swiper/modules";
 // import required modules
 // import { Pagination } from "swiper/modules";
-
+import img1 from "../../public/image/slider.1.png";
+import img2 from "../../public/image/slider.3.png";
+import img3 from "../../public/image/slider.2.png";
+import img4 from "../../public/image/slider.4.png";
 export default function App() {
   return (
     <>
@@ -27,7 +30,7 @@ export default function App() {
       >
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200  mb-16 ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img1} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops  px-5">
@@ -39,7 +42,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200   ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img2} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops px-5">
@@ -51,7 +54,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200   ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img3} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops px-5">
@@ -63,7 +66,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200   ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img4} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops px-5">
@@ -75,7 +78,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200   ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img1} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops px-5">
@@ -87,7 +90,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" flex flex-col justify-center items-center   rounded  border border-stone-200   ">
-            <img src=".." className="lastview" alt="" />
+            <img src={img2} className="lastview" alt="" />
             <h5 className="text-sky-300 m-4 font-pops">Medo Seiam</h5>
             <div className="place-items-start">
               <h1 className="text-black  font-pops px-5">
