@@ -1,0 +1,33 @@
+.lastAddImg .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.lastAddImg .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastAddImg .swiper-slide img {
+  display: block;
+  width: 65%;
+  height: 65%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.last-add {
+  width: 100%;
+  height: 100%;
+}
+
+.lastview {
+  width: 100% !important;
+  height: 100% !important;
+}

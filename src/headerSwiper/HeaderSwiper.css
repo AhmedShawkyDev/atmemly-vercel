@@ -1,0 +1,27 @@
+.HeaderS .swiper {
+  width: 88%;
+  height: 88%;
+}
+
+.HeaderS .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderS .swiper-slide img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  aspect-ratio: 1/1;
+  object-fit: scale-down;
+}
+
+.bborder {
+  border: 2px solid black;
+}

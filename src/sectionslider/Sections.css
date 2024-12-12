@@ -1,0 +1,41 @@
+.slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider .swiper-slide img {
+  display: block;
+  width: 25%;
+  height: 25%;
+  object-fit: cover;
+}
+.sliddder-wrapppper {
+  width: 100%;
+  height: 100%;
+}
+.card-img-1 {
+  width: 100%;
+}
+.card-img-2 {
+  width: 100%;
+}
+.card-img-3 {
+  width: 100% !important;
+}
+.card-img-4 {
+  width: 100%;
+}
+.card-img-5 {
+  width: 100%;
+}
